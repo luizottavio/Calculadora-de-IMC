@@ -9,14 +9,16 @@ function calcular() {
     if (peso.value.length == 0 || peso.value > 300 ) {
         alert('[ERRO] Verifique os dados e tente novamente')
     } 
+    
     /*if (altura.value.length == 0 || altura.value > 2.00 ) {
         alert('[ERRO] Verifique os dados e tente novamente')
     }
-     else {
+    else {
         (altura.value.length == 0 || altura.value > 2.00 )
         alert('[ERRO] Verifique os dados e tente novamente')
 
     } */
+ 
 
     res.innerHTML = `Seu IMC atual é ${Math.round(imcCalcular)}`
 
@@ -24,6 +26,6 @@ function calcular() {
     }
 
 
-   
+    //<input type="button" id="button" value="Calcular" onclick="calcular()">
 
    

@@ -7,9 +7,9 @@
    
     <title>Calculadora de Imc</title>
 
-    <link rel="stylesheet" href="css/estilos"> 
+    <link rel="stylesheet" href="css/estilos.css"> 
 
-    <script src="script.js"></script>
+    <script src="main.js"></script>
 
 
 </head>
@@ -19,8 +19,7 @@
     <p>Ainda não sabe qual o seu índice de massa corporal (IMC)?</p>
     <br>
     <br>
-    <br>
-    <p>Calcule agora mesmo!</p>
+    <p>Faça o calcule agora mesmo!</p>
 </header>
 
 <section>
@@ -29,21 +28,29 @@
         Para calcular o IMC (Índice de Massa Corporal), basta preencher os campos abaixo.
     </p>
 
-    <div>
-        <input type="number" name="txt1" id="txt1" placeholder="peso" min="0">
-        <input type="number" name="txt2" id="txt2" placeholder="altura" min="0">
-        <input type="button" id="button" value="Calcular" onclick="calcular()">
-    </div>  
+ 
+    <from>
+
+        <label for="peso">Peso</label>
+        <input type="number" name="txt1" id="txt1" placeholder="Peso (kg)" required max="400" min="0">
+
+        <label for="autura">Autura</label>
+        <input type="number" name="txt2" id="txt2" placeholder="Altura (m)" required max="3" min="0">
+
+        <input type="submit" id="button" value="Calcular" onclick="calcular()">
+
+    </from>
+    
 
     <br>
-    <div id="res">
-     
-    </div>
+
+    <div id="res">  </div>
+
 </section>
 
 
 <footer>
-    <p><a href="https://github.com/luizottavio" target="_blank">Luiz Otávio</a></p>
+    <p class="footer"><a href="https://github.com/luizottavio" target="_blank">By Luiz Otávio</a></p>
 </footer>
 
 </body>
