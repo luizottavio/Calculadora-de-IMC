@@ -16,7 +16,7 @@ body {
 
 }
 header {
-    background-color: #06524a70;
+    background-color: #027373;
     color: black;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -67,9 +67,13 @@ form {
     height: 35px;
     width: 340px;
 }
+#button:hover {
+    background-color: #02866e;;
+}
 #button {
     background-color: #04BF9D;
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
     height: 50px;
     width: 150px;
     margin-top: 25px;
@@ -91,6 +95,7 @@ a {
     text-decoration: none;
 }
 a:hover {
+    color: white;
     text-decoration: underline;
     font-weight: bold;
     font-size: 20px;
@@ -98,7 +103,7 @@ a:hover {
 }
 
 footer {
-    background-color: #06524a70;
+    background-color: #027373;
     text-align: center;
     margin-top: 327px;
     padding: 16px;
