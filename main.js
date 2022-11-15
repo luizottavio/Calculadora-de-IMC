@@ -15,7 +15,7 @@ function calcular() {
 
         } 
 
-        res.innerHTML = `Seu IMC atual é ${Math.round(imcCalcular)}`
+        res.innerHTML = `Seu IMC atual é ${imcCalcular.toFixed(1)}`
 
     }
 
